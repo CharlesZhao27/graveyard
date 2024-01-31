@@ -2,10 +2,20 @@ class ApiRequst:
     def __init__(self, api_key, endpoint, debug):
         self.api_key = api_key
         self.endpoint = endpoint
+        self.baseURL = 'https://pro-api.coingecko.com/api/v3/'
+
+        #debug flag
         self.debug = debug
 
     def ping():
         # test endpoint
+        # call GET method and ping the endpoint
+
+        
+
+
+
+
         return
     
     def simpleAll(): 
